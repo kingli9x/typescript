@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+TypeScript Compiler
+TypeScript is transpiled into JavaScript using a compiler.
+
+Installing the Compiler
+TypeScript has an official compiler which can be installed through npm.
+npm install typescript --save-dev
+
+The compiler is installed in the node_modules directory and can be run with: npx tsc.
+
+-----------
+Configuring the compiler
+The compiler can be configured using a tsconfig.json file.
+
+You can have TypeScript create tsconfig.json with the recommended settings with:
+npx tsc --init
+
+Here is an example of more things you could add to the tsconfig.json file:
+
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "./build"
+  }
+}
+You can open the file in an editor to add those options. This will configure the TypeScript compiler to transpile TypeScript files located in the src/ directory of your project, into JavaScript files in the build/ directory.
+
+
+
+
+
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>
+<!--
+
+-->
